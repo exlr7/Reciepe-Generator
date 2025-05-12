@@ -3,7 +3,7 @@ from tkinter import scrolledtext
 import cohere
 
 # Replace 'your-api-key' with your actual Cohere API key
-cohere_api_key = 'ni-api-key'
+cohere_api_key = 'your-api-key'
 co = cohere.Client(cohere_api_key)
 
 def generate_recipe():
